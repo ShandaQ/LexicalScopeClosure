@@ -1,0 +1,14 @@
+{
+  "name": "file-summary-sqk",
+  "version": "1.0.0",
+  "description": "reads a file and prints out the number of lines and the number of characters count",
+  "main": "file-summary.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shanda Kennedy",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.2"
+  }
+}

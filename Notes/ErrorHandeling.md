@@ -6,7 +6,27 @@
 - Usage of Closures
     - hide information - to not use a lot of global variables
 
+- meta data file
+  - package.json
+  - npm init (create package)
+    -  name, version, description....etc
+    - add other modules dependencies (locally)
+      - npm install asyn --save (all of this goes into the package.json file)
+    - global modules are used/ran at the command line and not used for the project
 
+- exports object from a module
+  -  object that gets returned when someone requires your modules
+  export.makeCalculator = function ....
+  - you can have many export objects in one file
+  - exports an object that has a calculator method
+- program.js - program that will be using the module
+   - var calculator = require('./calculator-module');
+   - than you can used the calculator module inside your program
+
+- export functions from a module
+  - module.export = object or function makeCalculator(), string or array... etc
+  - export just one
+- in the program that is using the module. it gets called the same way
 
 
  - Try and Catch is used with sync programming -

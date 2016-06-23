@@ -1,0 +1,11 @@
+{
+  "name": "convert-temp",
+  "version": "1.0.0",
+  "description": "convert cel to fah",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shanda Kennedy",
+  "license": "ISC"
+}
