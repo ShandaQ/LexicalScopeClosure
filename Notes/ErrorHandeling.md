@@ -1,3 +1,14 @@
+- What is Closure -
+  -  In JavaScript, if you use the function keyword inside another function, you are creating a closure
+  - when a child out lives its parents
+  - inner function can access anything thing that its parents has even if that parent function dies off
+
+- Usage of Closures
+    - hide information - to not use a lot of global variables
+
+
+
+
  - Try and Catch is used with sync programming -
 
     function add(x, y) {
@@ -44,10 +55,3 @@
       }
 
     });
-
-  - What is Closure -
-    - when a child out lives its parents
-    - inner function can access anything thing that its parents has even if that parent function dies off
-
-    Usage of Closures
-      - hide information - to not use a lot of global variables
